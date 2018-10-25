@@ -2,13 +2,59 @@
 #^------------------------------
 #^title trim=ends
 
-This is the title
+weirdspace
 
 #^------------------------------
 #^body trim=ends form=markdown
 
-Welcome
--------
+weirdspace
 
-Here is a web page rendered from markdown.
+<div class="latest">
+	<div class="def">Latest episode</div>
+	<div class="text">{text}</div><div class="cast">
+		<iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=%2Fcamp_fr%2Fweirdspace-10th-september-2018%2F" frameborder="0" ></iframe>
+	</div>
+	<div class="def">many thanks to Project Gutenberg <a href="http://www.gutenberg.org/files/2035/2035-h/2035-h.htm#link2H_4_0006">link</a></div>
+</div>
 
+{about}
+
+#^shows
+<iframe width="30%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&dark=1&hide_artwork=1&feed=%2Fcamp_fr%2Fweirdspace-13th-august-2018%2F" frameborder="0" ></iframe>
+<iframe width="30%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&dark=1&hide_artwork=1&feed=%2Fcamp_fr%2Fweirdspace-16th-july-2018%2F" frameborder="0" ></iframe>
+<iframe width="30%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&dark=1&hide_artwork=1&feed=%2Fcamp_fr%2Fweirdspace-21st-may-2018%2F" frameborder="0" ></iframe>
+<iframe width="30%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&dark=1&hide_artwork=1&feed=%2Fcamp_fr%2Fweirdspace-23rd-april-2018%2F" frameborder="0" ></iframe>
+<iframe width="30%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&dark=1&hide_artwork=1&feed=%2Fcamp_fr%2Fweirdspace-26th-march-2018%2F" frameborder="0" ></iframe>
+<iframe width="30%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&dark=1&hide_artwork=1&feed=%2Fcamp_fr%2Fweirdspace-30th-january-2018%2F" frameborder="0" ></iframe>
+<iframe width="30%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&dark=1&hide_artwork=1&feed=%2Fcamp_fr%2Fweirdspace-21st-june-2018%2F" frameborder="0" ></iframe>
+<iframe width="30%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&dark=1&hide_artwork=1&feed=%2Fcamp_fr%2Fweirdspace-01st-january-2018%2F" frameborder="0" ></iframe>
+<iframe width="30%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&dark=1&hide_artwork=1&feed=%2Fcamp_fr%2Fweirdspace-04th-december-2017%2F" frameborder="0" ></iframe>
+<iframe width="30%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&dark=1&hide_artwork=1&feed=%2Fcamp_fr%2Fweirdspace-06th-november-2017%2F" frameborder="0" ></iframe>
+<iframe width="30%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&dark=1&hide_artwork=1&feed=%2Fcamp_fr%2Fweirdspace-09th-october-2017%2F" frameborder="0" ></iframe>
+
+
+#^text trim=ends form=markdown
+```
+reading excerpts from Thy Heart's Desire by Netta Syrett
+
+Track listing:
+1. Esperando el coche by Carmen Barradas; Patricia Pérez (piano)
+2. Prelude in G minor by Elsa Barraine; Anne Laver (organ)
+3. Sonata in E minor by Florence Price; Maria Corley (piano)
+4. Soir d’hiver by Nadia Boulanger; Nicole Cabell (soprano)
+5. 'Round Midnight by Valerie Capers
+6. J’ai frappé by Nadia Boulanger; Nicole Cabell (soprano)
+
+```
+
+
+#^about
+<div class="host">Your host - <a href="http://twitter.com/shi">@shi</a></div>
+
+
+#^css same=append
+.def			{padding:20px 0;}
+.latest			{width:75%; padding:40px; background-color:rgba(0,0,0,0.9); margin:0 auto;}
+.text, .cast	{display:inline-block; vertical-align:top; width:40%;}
+.text			{width:60%; color:#ccc;}
+.host			{position:absolute; left:40px; bottom:40px;}
