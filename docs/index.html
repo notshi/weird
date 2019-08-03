@@ -4,7 +4,7 @@
 
 /*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,embed,iframe,object,audio,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}
 
-body	{background:#000; font-family:monospace, sans-serif; font-size:16px; line-height:24px; color:#666; width:100%; height:100%; padding:50px; position:relative;}
+body	{background:#262626; font-family:monospace, sans-serif; font-size:16px; line-height:24px; color:#ccc; width:100%; height:100%; padding:30px; position:relative;}
 /*body	{background-color:#111; background:url(/data/weirdspace.jpg) no-repeat center center; background-size:cover; background-attachment:fixed;}*/
 
 h1		{font-size:4em; font-weight:normal; color:#1400ff;}
@@ -12,30 +12,53 @@ h2		{font-size:2em; font-weight:normal;}
 
 a		{color:#FF9800; text-decoration:none;}
 code	{white-space:pre-wrap;}
-.def			{padding:20px 0;}
-.def span		{color:#9e9e9e; font-weight:bold;}
-.latest			{width:75%; padding:40px; background-color:rgba(0,0,0,0.9); margin:0 auto;}
+.def			{padding:30px 0 10px 0;}
+.def span		{color:#fff;}
+.latest			{width:960px; margin:0 auto; padding-bottom:30px; border-bottom:1px dashed #666;}
+li				{margin-left:30px;}
 .text, .cast	{display:block; width:960px;}
 .text a			{font-size:1em; padding:0 5px;}
-.text span		{color:#666;}
+.text span		{color:#9ad7d6;}
+.text div		{padding:10px 40px 0px 0; display:inline-block; width:280px; vertical-align:middle;}
+.text div:last-of-type	{width:680px; font-size:20px; padding-right:0; line-height:26px;}
+.text div span	{font-size:16px; line-height:20px; padding:20px; display:block;}
 .host			{position:absolute; right:40px; top:40px; text-align:right;}
 .host div		{font-size:14px;}
 .host div a		{color:#888; border-bottom:1px dotted #666;}
+.cast img		{height:180px;}
+.last			{padding-bottom:80px;}
 
 /* Larger than mobile */
 @media (min-width: 400px) {
-	.text, .cast	{display:inline-block; vertical-align:top; width:40%;}
-	.text			{width:60%; padding-right:60px; color:#ccc;}	
+	.text, .cast	{display:inline-block; vertical-align:top; width:100%;}
+	.text			{width:100%; padding-top:15px; color:#ccc;}	
 }
 
 </style></head>
 <body><p>weirdspace</p>
 <p><div class="latest">
-	<div class="def">Latest episode <span>220419</span></div>
+	<div class="def">weirdspace Zine <span>220419</span></div>
+	<div class="cast">
+		<img src="data/zine_220419/zine1.jpg"/><img src="data/zine_220419/zine2.jpg"/><img src="data/zine_220419/zine3.jpg"/><img src="data/zine_220419/zine4.jpg"/>
+		<img src="data/zine_220419/zine5.jpg"/><img src="data/zine_220419/zine6.jpg"/><img src="data/zine_220419/zine7.jpg"/><img src="data/zine_220419/zine8.jpg"/>
+	</div>
+	<div class="text"><div><img src="data/zine_220419/zine9.jpg"/></div><div>
+    The weirdspace Zine 220419 contains research and data collated from the ABRSM (<i>Associated Board of the Royal Schools of Music</i>) website, examining the representation of women composers in the 2019 syllabuses. It also contains brief biographies on the author and composers featured in Episode 220419, as a read-along while you listen to the podcast.
+    <span>The zine is 60 pages (<i>14.5cm x 20.5cm</i>) printed on 140gsm Cyclus Offset recycled paper, riso covers on 300gsm, pamphlet stitched with cotton thread and includes a pull out A3 riso poster.</span>
+    Get a copy for a tenner from me in person or send me an email notshi@gmail.com for a copy through mail.
+</div></div>
+</div>
+
+
+<div class="latest">
+	<div class="def">Episode <span>220419</span></div>
+	<div class="cast">
+		<iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=%2Fcamp_fr%2Fweirdspace-22nd-april-2019%2F" frameborder="0" ></iframe>
+	</div>
 	<div class="text"><p><span>Reading excerpts from</span> A Rose in June by Margaret Oliphant<a href="http://www.gutenberg.org/files/54882/54882-h/54882-h.htm">&#9871;</a>
 <br/>
 <br/></p>
-<p><span>Track listing:</span></p>
+<p><span>Track listing</span></p>
 <ol>
 <li>Motett, &quot;Stilla komme och välkomna vare dagens slut och lön!&quot; by Sara Wennerberg-Reuter<a href="http://www.fronczak.se/sara-wennerberg-reuter/">&#9836;</a>; St. Pauli Vokalensemble</li>
 <li>Living Sound by Maryanne Amacher<a href="https://www.bowerbird.org/special-projects/maryanne-amacher-perceptual-geographies/">&#9836;</a></li>
@@ -45,15 +68,18 @@ code	{white-space:pre-wrap;}
 <li>Dervish by Errollyn Wallen<a href="http://www.errollynwallen.com/biography">&#9836;</a>; the Continuum Ensemble</li>
 <li>Sinfonia (for Orbiting Spheres) by Missy Mazzoli<a href="http://www.missymazzoli.com/about-missy">&#9836;</a>; Karina Canellakis</li>
 </ol>
-</div><div class="cast">
-		<iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=%2Fcamp_fr%2Fweirdspace-22nd-april-2019%2F" frameborder="0" ></iframe>
-	</div>
+</div>
 </div>
 
 <div class="latest">
 	<div class="def">Episode <span>250219</span></div>
-	<div class="text"><p><span>Reading excerpts from</span> Fidelity by Susan Glaspell<a href="http://www.gutenberg.org/files/32432/32432-h/32432-h.htm">&#9871;</a></p>
-<p><span>Track listing:</span></p>
+	<div class="cast">
+		<iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=%2Fcamp_fr%2Fweirdspace-25th-february-2019%2F" frameborder="0" ></iframe>
+	</div>
+	<div class="text"><p><span>Reading excerpts from</span> Fidelity by Susan Glaspell<a href="http://www.gutenberg.org/files/32432/32432-h/32432-h.htm">&#9871;</a>
+<br/>
+<br/></p>
+<p><span>Track listing</span></p>
 <ol>
 <li>Concerto For Violoncello And Strings - I. (Turbulent, Tense) by Dobrinka Tabakova<a href="http://www.dobrinka.com/about/index.htm">&#9836;</a></li>
 <li>Suite in Old Style - II. The Rose Garden, By Moonlight by Dobrinka Tabakova</li>
@@ -63,17 +89,18 @@ code	{white-space:pre-wrap;}
 <li>Chin: Piano Concerto - Movement I - IV by Unsuk Chin<a href="https://www.facebook.com/UnsukChin.Official/">&#9836;</a></li>
 <li>Soleils couchants by Nadia Boulanger<a href="http://www.nadiaboulanger.org/nb/galleryA.html">&#9836;</a></li>
 </ol>
-</div><div class="cast">
-		<iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=%2Fcamp_fr%2Fweirdspace-25th-february-2019%2F" frameborder="0" ></iframe>
-	</div>
+</div>
 </div>
 
 <div class="latest">
 	<div class="def">Episode <span>280119</span></div>
+	<div class="cast">
+		<iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=%2Fcamp_fr%2Fweirdspace-28th-january-2019%2F" frameborder="0" ></iframe>
+	</div>
 	<div class="text"><p><span>Reading excerpts from</span> The Shuttle by Frances Hodgson Burnett<a href="http://www.gutenberg.org/files/506/506-h/506-h.htm">&#9871;</a>
 <br/>
 <br/></p>
-<p><span>Track listing:</span></p>
+<p><span>Track listing</span></p>
 <ol>
 <li>Like the Lily by Frances White: Centre Bridge (Electroacoustic Works)<a href="http://rosewhitemusic.com/recordings-and-scores/#Centre_Bridge_Mode_Records">&#9836;</a></li>
 <li>My Dark Heart Andante by Elizabeth Maconchy<a href="http://www.musicweb-international.com/classrev/2007/Oct07/Maconchy_LeFanu.htm">&#9836;</a></li>
@@ -83,17 +110,18 @@ code	{white-space:pre-wrap;}
 <li>My Dark Heart Andante 2 by Elizabeth Maconchy</li>
 <li>The Fright by Noveller<a href="http://www.sarahlipstate.com/bio">&#9836;</a></li>
 </ol>
-</div><div class="cast">
-		<iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=%2Fcamp_fr%2Fweirdspace-28th-january-2019%2F" frameborder="0" ></iframe>
-	</div>
+</div>
 </div>
 
 <div class="latest">
 	<div class="def">Episode <span>311218</span></div>
+	<div class="cast">
+		<iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=%2Fcamp_fr%2Fweirdspace-31st-december-2018%2F" frameborder="0" ></iframe>
+	</div>
 	<div class="text"><p><span>Reading excerpts from</span> A Lost Lady by Willa Cather<a href="http://gutenberg.net.au/ebooks02/0200451.txt">&#9871;</a>
 <br/>
 <br/></p>
-<p><span>Track listing:</span></p>
+<p><span>Track listing</span></p>
 <ol>
 <li>Magnetite by Emily Howard<a href="www.emilyhoward.com/work_detail/magnetite.php">&#9836;</a>; Royal Liverpool Philharmonic Orchestra</li>
 <li>Bioluminescense by Lydia Ayers<a href="http://www.lydiaayers.com/index.html">&#9836;</a></li>
@@ -101,17 +129,18 @@ code	{white-space:pre-wrap;}
 <li>Concert At Wbai Free Music Store by Suzanne Ciani<a href="https://www.sevwave.com/">&#9836;</a></li>
 <li>Home by Angélica Negrón<a href="https://www.angelicanegron.com/">&#9836;</a></li>
 </ol>
-</div><div class="cast">
-		<iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=%2Fcamp_fr%2Fweirdspace-31st-december-2018%2F" frameborder="0" ></iframe>
-	</div>
+</div>
 </div>
 
-<div class="latest">
+<div class="latest last">
 	<div class="def">Episode <span>100918</span></div>
+	<div class="cast">
+		<iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=%2Fcamp_fr%2Fweirdspace-10th-september-2018%2F" frameborder="0" ></iframe>
+	</div>
 	<div class="text"><p><span>Reading excerpts from </span>Thy Heart&#39;s Desire by Netta Syrett<a href="http://www.gutenberg.org/files/2035/2035-h/2035-h.htm#link2H_4_0006">&#9871;</a>
 <br/>
 <br/></p>
-<p><span>Track listing:</span></p>
+<p><span>Track listing</span></p>
 <ol>
 <li>Esperando el coche by Carmen Barradas<a href="https://songofthelarkblog.com/2018/06/27/carmen-barradas/">&#9836;</a>; Patricia Pérez (piano)</li>
 <li>Prelude in G minor by Elsa Barraine<a href="https://songofthelarkblog.com/2018/08/29/elsa-barraine-composer-and-french-resistance-leader/">&#9836;</a>; Anne Laver (organ)</li>
@@ -120,14 +149,11 @@ code	{white-space:pre-wrap;}
 <li>&#39;Round Midnight by Valerie Capers<a href="https://valcapmusic.com/">&#9836;</a></li>
 <li>J’ai frappé by Nadia Boulanger<a href="http://daily.redbullmusicacademy.com/2017/02/nadia-boulanger-feature">&#9836;</a>; Nicole Cabell (soprano)</li>
 </ol>
-</div><div class="cast">
-		<iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=%2Fcamp_fr%2Fweirdspace-10th-september-2018%2F" frameborder="0" ></iframe>
-	</div>
+</div>
 </div>
 
 <div class="host">
 	<span>Your host - <a href="http://twitter.com/shi">@shi</a></span>
-	<div>Many thanks to Project Gutenberg and <a href="https://songofthelarkblog.com">Song of the Lark</a> <3</div>
 </div>
 
 
